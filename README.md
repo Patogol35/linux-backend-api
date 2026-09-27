@@ -21,13 +21,12 @@ Funcionalidades
 
 La API proporciona seis endpoints:
 
-Método| Endpoint| Descripción
-GET| "/api/health"| Comprueba que la API esté funcionando
-GET| "/api/system"| Información del sistema, CPU, RAM, disco y uptime
-GET| "/api/processes"| Procesos y consumo de CPU y memoria
-GET| "/api/network"| Información y tráfico de red
-GET| "/api/services"| Estado de los servicios de Linux
-GET| "/api/disk"| Particiones y uso del almacenamiento
+- GET "/api/health" Comprueba que la API esté funcionando
+- GET "/api/system" Información del sistema, CPU, RAM, disco y uptime
+- GET "/api/processes" Procesos y consumo de CPU y memoria
+- GET "/api/network" Información y tráfico de red
+- GET "/api/services" Estado de los servicios de Linux
+- GET "/api/disk" Particiones y uso del almacenamiento
 
 ---
 
@@ -41,7 +40,7 @@ Requisitos
 
 Instalación
 
-Clonar el repositorio:
+1. Clonar el repositorio:
 
 ```bash
 
@@ -49,7 +48,7 @@ git clone https://github.com/Patogol35/linux-backend-api.git
 
 ```
 
-Entrar en el proyecto:
+2. Entrar en el proyecto:
 
 ```bash
 
@@ -57,7 +56,7 @@ cd linux-backend-api
 
 ```
 
-Crear el entorno virtual:
+3. Crear el entorno virtual:
 
 ```bash
 
@@ -65,7 +64,7 @@ python3 -m venv venv
 
 ```
 
-Activar el entorno virtual:
+4. Activar el entorno virtual:
 
 ```bash
 
@@ -73,11 +72,19 @@ source venv/bin/activate
 
 ```
 
-Instalar las dependencias:
+5. Instalar las dependencias:
+
+Para instalar las dependencias, puedes usar una de estas dos opciones:
+
+Opción 1:
 
 ```bash
 
+pip install flask-cors psutil
+
 ```
+
+Opción 2:
 
 ```bash
 
@@ -85,9 +92,7 @@ pip install -r requirements.txt
 
 ```
 
-Ejecución
-
-Ejecutar la aplicación:
+6. Ejecutar la aplicación:
 
 ```bash
 
@@ -95,7 +100,7 @@ python3 app.py
 
 ```
 
-La API estará disponible en:
+7. La API estará disponible en:
 
 http://localhost:5000
 
@@ -103,37 +108,37 @@ http://localhost:5000
 
 Endpoints
 
-Health
+- Health
 
 GET /api/health
 
 Comprueba que el servidor esté funcionando.
 
-System
+- System
 
 GET /api/system
 
 Obtiene información del sistema operativo, CPU, memoria, almacenamiento y tiempo de actividad.
 
-Processes
+- Processes
 
 GET /api/processes
 
 Obtiene los procesos activos y su consumo de CPU y memoria.
 
-Network
+- Network
 
 GET /api/network
 
 Obtiene información de las interfaces de red y estadísticas de tráfico.
 
-Services
+- Services
 
 GET /api/services
 
 Consulta los servicios administrados por "systemd" y muestra su estado.
 
-Disk
+- Disk
 
 GET /api/disk
 
