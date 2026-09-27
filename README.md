@@ -12,8 +12,6 @@ https://youtu.be/yQVTPIQmP9I?si=0kGZPzHvYFvjWCAy
 
 ---
 
-[▶️ Ver demostración del proyecto](ENLACE_DEL_VIDEO)
-
 Tecnologías utilizadas
 
 - Python 3
