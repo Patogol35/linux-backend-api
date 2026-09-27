@@ -4,6 +4,8 @@ API REST desarrollada con Python 3 y Flask para consultar información de un ser
 
 El proyecto permite obtener información del sistema, procesos, red, servicios y almacenamiento mediante diferentes endpoints.
 
+---
+
 Tecnologías utilizadas
 
 - Python 3
@@ -12,6 +14,8 @@ Tecnologías utilizadas
 - Psutil
 - Linux / Ubuntu
 - Git y GitHub
+
+---
 
 Funcionalidades
 
@@ -25,43 +29,77 @@ GET| "/api/network"| Información y tráfico de red
 GET| "/api/services"| Estado de los servicios de Linux
 GET| "/api/disk"| Particiones y uso del almacenamiento
 
+---
+
 Requisitos
 
 - Linux / Ubuntu
 - Python 3
 - Git
 
+---
+
 Instalación
 
 Clonar el repositorio:
 
+```bash
+
 git clone https://github.com/Patogol35/linux-backend-api.git
+
+```
 
 Entrar en el proyecto:
 
+```bash
+
 cd linux-backend-api
+
+```
 
 Crear el entorno virtual:
 
+```bash
+
 python3 -m venv venv
+
+```
 
 Activar el entorno virtual:
 
+```bash
+
 source venv/bin/activate
+
+```
 
 Instalar las dependencias:
 
+```bash
+
+```
+
+```bash
+
 pip install -r requirements.txt
+
+```
 
 Ejecución
 
 Ejecutar la aplicación:
 
+```bash
+
 python3 app.py
+
+```
 
 La API estará disponible en:
 
 http://localhost:5000
+
+---
 
 Endpoints
 
@@ -101,15 +139,7 @@ GET /api/disk
 
 Obtiene información sobre las particiones, sistemas de archivos y uso del almacenamiento.
 
-Estructura del proyecto
-
-linux-backend-api/
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-«El directorio "venv/" se utiliza únicamente como entorno virtual local y no se incluye en el repositorio.»
+---
 
 Objetivo
 
