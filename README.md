@@ -158,4 +158,6 @@ Este proyecto fue desarrollado como práctica de Linux, Python 3, Flask y APIs R
 
 ---
 
-Autor Jorge Patricio Santamaría Cherrez Máster en Ingeniería de Software y Sistemas Informáticos
+Autor: Jorge Patricio Santamaría Cherrez
+
+Máster en Ingeniería de Software y Sistemas Informáticos
