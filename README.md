@@ -149,3 +149,7 @@ Obtiene información sobre las particiones, sistemas de archivos y uso del almac
 Objetivo
 
 Este proyecto fue desarrollado como práctica de Linux, Python 3, Flask y APIs REST, utilizando una máquina virtual con Ubuntu para obtener información real de los recursos y servicios del sistema.
+
+---
+
+Autor Jorge Patricio Santamaría Cherrez Máster en Ingeniería de Software y Sistemas Informáticos
